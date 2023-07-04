@@ -1,0 +1,378 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.nav-text ul :hover{
+color: red;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: red;
+}
+.searches{
+    position: relative;
+      
+}
+.search-box {
+    border-radius: 20px;
+}
+.carousel-margin{
+    margin-top: 82px;
+    transition:all  2s ease-in-out color;
+}
+.glasses{
+position: absolute;
+top:13px;
+right:20px;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    color:blue;
+}
+.row01{
+width: 830px;
+}
+.shop-img::before{
+content: "";
+background: url(../img/shop.jpg);
+background-repeat: no-repeat;
+background-position:center;
+background-size: cover;
+position:absolute;
+top: 0px;
+right: 0px;
+width: 30%;
+height: 100%;
+z-index: -10;
+}
+.shop-img:hover{
+    opacity: 0.8;
+}
+.text1{
+    color: blue;
+}
+.shop2{
+    position: relative;
+}
+.text2{
+    position: relative;
+    color: white;
+    top: 178px;
+    left: 120px;
+}
+
+.order{
+    background-color:white;
+    color:red;
+    border-radius: 20px;
+    
+}
+.order:hover{
+    background-color: red;
+    color:white;
+    
+}
+
+
+
+.rocket{
+
+    font-size: 26px;
+    position: relative;
+    top: 15px;
+}
+  
+  .gender ul li{
+       margin: 13px;
+  }
+  .gender ul li:hover{
+    text-decoration: underline;
+    
+  }
+
+  .stoke img{
+height: 335px;
+width: 100%;
+  }
+
+
+  .stoke img:hover{
+  opacity: 0.6;
+  transform: scale(1.1);
+  transition: .5s;
+  }
+
+  .order2{
+    background-color:white;
+    color:red;
+    border-radius: 20px;
+  width: 118px;
+}
+.order2:hover{
+    background-color: red;
+    color:white;
+}
+ 
+.offer{
+    height: 335px;
+    background: url(../img/bg4.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    position:relative;
+    /* opacity: 0.6;     */
+
+}
+
+.text3{
+    position: relative;
+    top: 150px;
+    background: rgba(0, 0, 0, 0.3);
+}
+.blog span{
+    color: gray;
+}
+.blog span:hover{
+    color:black;
+    text-decoration: underline;
+    
+}
+
+.bg-image::before{
+    content: "";
+ background: url(../img/fav6.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height: 335px;
+ width: 100%;
+ position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -10;
+    opacity:0.5;
+}
+.bg-image{
+ position: relative;
+}
+
+.searche1{
+    position: relative;
+    border-radius: 30px;
+    width: 390px;
+    height: 54px;
+    background: #f4f4f4;
+}
+
+
+.order3{
+    background-color:white;
+    color:red;
+    border-radius: 20px;
+  width: 118px;
+  position: relative;
+  bottom:85px ;
+  left: 125px;
+
+}
+.order3:hover{
+    background-color: red;
+    color:white;
+}
+.row1{
+    --bs-gutter-x: 0;
+}
+
+.order4{
+    background-color: red;
+    color:white;
+    border-radius: 20px;
+  width: 118px;
+}
+
+.order4:hover{
+    background-color: red;
+    color:white;
+    border-radius: 20px;
+  width: 118px;
+  transform: scale(1.1);
+  transition: .5s;
+}
+
+
+/* ABOUT US SECTION  */
+
+
+.about{
+    margin-top: 130px;
+}
+.about1{
+    display: flex;
+    justify-content: center;
+}
+
+.about-img{
+    height: 52px;
+    width: 52px;
+}
+
+/* .about-bg{
+    position: relative;
+} */
+
+
+.newslatter{
+    position: relative;
+}
+
+.about-text{
+    position: absolute;
+    bottom:40px ;
+}
+
+
+/* shop section  */
+
+.shop-section{
+    margin-top: 100px;
+}
+
+.ig{
+    width: 100%;
+    height: 170px;
+}
+.shop-button{
+    background-color: white;
+    color:red;
+    border-radius: 20px;
+}
+.shop-button:hover{
+    background-color: red;
+    color:white;
+}
+
+.item1 img{
+height: 270px;
+position: relative;
+}
+.item2 img{
+height: 270px;
+}
+.item3 img{
+height: 270px;
+}
+
+
+
+.item1 .second img{
+    display: none;
+/* visibility: hidden; */
+}
+.item1 img:hover{
+    /* visibility: hidden; */
+    display: none;
+}
+
+.item1:hover .second img{
+/* visibility: visible; */
+display: block;
+position: absolute;
+bottom:88px;
+}
+
+
+
+.item2 .second img{
+  
+/* visibility: hidden; */
+display: none;
+}
+.item2 img:hover{
+    /* visibility: hidden; */
+    display: none;
+}
+
+.item2:hover .second img{
+/* visibility: visible; */
+display: block;
+position: absolute;
+bottom:88px;
+}
+
+
+
+.item3 .second img{
+/* visibility: hidden; */
+display: none;
+}
+
+.item3 img:hover{
+    /* visibility: hidden; */
+    display: none;
+}
+
+.item3:hover .second img{
+    display: block;
+/* visibility: visible; */
+position: absolute;
+bottom:88px;
+}
+
+
+
+
+
+
+
+.product-list .product-name h3{
+    font-size: 1.125rem;
+    color: black;
+    transition: 0.3s ease 0s;
+}
+
+.product-list .product-name h3:hover{
+    color: red;
+}
+
+.product-list .product-name .amount{
+    color: red;
+    font-weight: 5oo;
+}
+.product-list .product-name .amount del{
+    color: gray;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+/* .heading:hover{
+    text-decoration: underline red;
+} */
+
+.product img:hover{
+transform: scale(1.1);
+opacity: 0.6;
+border-radius: 20px;
+}
+.rate:hover{
+transform: scale(1.2);
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
